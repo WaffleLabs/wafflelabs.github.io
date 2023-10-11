@@ -1,10 +1,9 @@
 body {
-    line-height: 1.0;
-    min-height: var(--viewport-height);
-    min-width: 320px;
-    overflow-x: hidden;
+    min-height: 100vh;
     word-wrap: break-word;
     background: linear-gradient(-50deg, #A58CB3, #838BC2, #EAE7FA);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 200% 200%;
     animation: gradient 25s ease infinite;
 }
