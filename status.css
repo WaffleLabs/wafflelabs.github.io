@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #EED7C5;
+    background-color: #000000;
+    opacity: 50%;
+    border-radius: 40px;
+    -webkit-box-shadow:0px 0px 85px 10px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 85px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 85px 10px rgb(0, 0, 0);
 }
 
 .nav-list li {
@@ -14,7 +19,7 @@
 
 .nav-list li a {
     display: block;
-    color: #B36A5E;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,37 +27,49 @@
 }
 
 .nav-list li a:hover {
-    background-color: #C89F9C;
+    background-color: #4e4cb7;
+    opacity: 80%;
+    transition: 0.3s;
 }
 
-body {
-    background-color: #EEE2DF;
-    margin: 0px;
+.content {
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    padding: 30px;
+    line-height: 150%;
     font-family: 'Archivo', sans-serif;
 }
 
 h1 {
-    color: #B36A5E;
+    color: #ffffff;
     font-weight: 500;
-    font-size: 40px;
+    font-size:40px;
     text-align: center;
     padding-bottom: 30px;
+    -webkit-text-shadow:0px 0px 85px 10px rgb(0, 0, 0);
+    -moz-box-text: 0px 0px 85px 10px rgb(0, 0, 0);
+    text-shadow: 0px 0px 85px 10px rgb(0, 0, 0);
+    font-family: 'Archivo', sans-serif;
 }
 
-
-h2 {
-    color: #B36A5E;
+p {
+    color: #ffffff;
     font-weight: 500;
-    font-size: 30px;
+    font-size:30px;
     text-align: center;
     padding-bottom: 30px;
+    -webkit-text-shadow:0px 0px 85px 10px rgb(0, 0, 0);
+    -moz-box-text: 0px 0px 85px 10px rgb(0, 0, 0);
+    text-shadow: 0px 0px 85px 10px rgb(0, 0, 0);
+    font-family: 'Archivo', sans-serif;
 }
 
-h3 {
-    color: #B36A5E;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 30px;
+.content img {
+    padding: 30px;
 }
 
+hr {
+    border: 5px solid #C89F9C;
+    border-radius: 5px;
+  }
